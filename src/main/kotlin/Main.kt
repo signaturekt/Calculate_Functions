@@ -31,7 +31,7 @@ fun smallest(x: Int, y: Int, z: Int): Int {
     if(y > z) {
         smallestNum = z
     }
-    return smallestNum;
+    return smallestNum
 }
 
 fun largest(x: Int, y: Int, z: Int): Int {
@@ -42,5 +42,5 @@ fun largest(x: Int, y: Int, z: Int): Int {
     if(y < z) {
         largestNum = z
     }
-    return largestNum;
+    return largestNum
 }
