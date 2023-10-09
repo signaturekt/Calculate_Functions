@@ -23,6 +23,7 @@ fun product(x: Int, y: Int, z: Int): Int {
     return x * y * z
 }
 
+// find the smallest value
 fun smallest(x: Int, y: Int, z: Int): Int {
     var smallestNum = x
     if(x > y) {
@@ -34,6 +35,7 @@ fun smallest(x: Int, y: Int, z: Int): Int {
     return smallestNum
 }
 
+// find the largest value
 fun largest(x: Int, y: Int, z: Int): Int {
     var largestNum = x
     if(x < y) {
